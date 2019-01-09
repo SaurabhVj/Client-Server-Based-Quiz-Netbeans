@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="parent" stylesheets="@../CSS/newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RegistrationController">
+   <children>
+      <Label layoutX="20.0" layoutY="115.0" text="Register to Proceed" />
+      <Label layoutX="20.0" layoutY="72.0" prefHeight="43.0" prefWidth="200.0" text="Registration">
+         <font>
+            <Font name="Ebrima Bold" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="user_name" labelFloat="true" layoutX="27.0" layoutY="165.0" maxWidth="347.0" minWidth="347.0" prefHeight="37.0" prefWidth="347.0" promptText="Name" unFocusColor="#4059a9" />
+      <JFXTextField fx:id="user_email" labelFloat="true" layoutX="27.0" layoutY="232.0" maxWidth="386.0" minWidth="347.0" prefHeight="37.0" prefWidth="347.0" promptText="Email" unFocusColor="#4059a9" />
+      <JFXPasswordField fx:id="user_pass" layoutX="33.0" layoutY="300.0" maxWidth="339.0" minWidth="339.0" prefHeight="37.0" prefWidth="339.0" promptText="Password" unFocusColor="#4059a9" />
+      <JFXPasswordField fx:id="user_cnfpass" layoutX="29.0" layoutY="377.0" maxWidth="347.0" minWidth="347.0" prefHeight="37.0" prefWidth="347.0" promptText="Confirm Password" unFocusColor="#4059a9" />
+      <JFXButton fx:id="register_btn" buttonType="RAISED" layoutX="58.0" layoutY="447.0" onMouseClicked="#RegisterStudent" prefHeight="50.0" prefWidth="292.0" styleClass="loginbtn" text="Signup" />
+      <Label layoutX="2.0" layoutY="5.0" onMouseClicked="#back_to_menu" styleClass="forgetbtn" stylesheets="@newCascadeStyleSheet.css" text="Back" textFill="#4059a9" underline="true">
+         <font>
+            <Font name="Ebrima Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

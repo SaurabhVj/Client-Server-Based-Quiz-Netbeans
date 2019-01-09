@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="parent" stylesheets="@newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLDocumentController">
+   <children>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="sidebar" stylesheets="@../CSS/newCascadeStyleSheet.css">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="sidebar">
+               <image>
+                  <Image url="@../icons/quiz.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label text="Welcome To" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="155.0" layoutY="380.0" text="Quiz" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane fx:id="content_area" layoutX="400.0" layoutY="8.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="30.0" layoutY="70.0" prefHeight="43.0" prefWidth="200.0" text="Welcome Back">
+               <font>
+                  <Font name="Ebrima Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="113.0" text="Login To continue" />
+            <JFXTextField fx:id="login_username" labelFloat="true" layoutX="37.0" layoutY="164.0" maxWidth="301.0" minWidth="301.0" prefHeight="37.0" prefWidth="301.0" promptText="Username" unFocusColor="#4059a9" />
+            <JFXTextField fx:id="login_password" labelFloat="true" layoutX="37.0" layoutY="239.0" maxWidth="301.0" minWidth="301.0" prefHeight="37.0" prefWidth="301.0" promptText="Password" unFocusColor="#4059a9" />
+            <Label layoutX="213.0" layoutY="276.0" styleClass="forgetbtn" stylesheets="@newCascadeStyleSheet.css" text="Forgot password?" textFill="#4059a9" underline="true">
+               <font>
+                  <Font name="Ebrima Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btn_login" buttonType="RAISED" layoutX="75.0" layoutY="336.0" onMouseClicked="#LoginStudent" prefHeight="43.0" prefWidth="255.0" styleClass="loginbtn" text="Login" textFill="WHITE">
+               <stylesheets>
+                  <URL value="@newCascadeStyleSheet.css" />
+                  <URL value="@../CSS/newCascadeStyleSheet.css" />
+               </stylesheets></JFXButton>
+            <Label layoutX="122.0" layoutY="397.0" text="New User ?" textFill="#8a8383" />
+            <Label layoutX="202.0" layoutY="398.0" onMouseClicked="#open_registration" styleClass="forgetbtn" stylesheets="@newCascadeStyleSheet.css" text="Sign up" textFill="#4059a9" underline="true">
+               <font>
+                  <Font name="Ebrima Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="329.0" layoutY="14.0" styleClass="forgetbtn" stylesheets="@newCascadeStyleSheet.css" textFill="#4059a9" underline="true">
+               <font>
+                  <Font name="Ebrima Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="47.0" fitWidth="38.0" layoutX="330.0" layoutY="33.0" onMouseClicked="#closeApp" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/icons8-close-window-48.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Style.CreateQuizController">
+   <children>
+      <JFXButton  fx:id="btn_addQuiz" buttonType="RAISED" layoutX="261.0" layoutY="393.0" onMouseClicked="#AddQuiz" prefHeight="63.0" prefWidth="291.0" styleClass="loginbtn" text="Add Quiz" textFill="WHITE">
+         <stylesheets>
+            <URL value="@newCascadeStyleSheet.css" />
+            <URL value="@../CSS/newCascadeStyleSheet.css" />
+         </stylesheets>
+      </JFXButton>
+      <JFXTextField  fx:id="add_subject" labelFloat="true" layoutX="256.0" layoutY="213.0" maxWidth="301.0" minWidth="301.0" prefHeight="37.0" prefWidth="301.0" promptText="Subject" unFocusColor="#4059a9" />
+      <JFXTextField  fx:id="add_quiz" labelFloat="true" layoutX="256.0" layoutY="292.0" maxWidth="301.0" minWidth="301.0" prefHeight="37.0" prefWidth="301.0" promptText="Quiz Name" unFocusColor="#4059a9" />
+      <Label layoutX="324.0" layoutY="119.0" prefHeight="43.0" prefWidth="200.0" text="Host Quiz">
+         <font>
+            <Font name="Ebrima Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

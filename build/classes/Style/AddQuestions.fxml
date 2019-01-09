@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Style.AddQuestionsController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0" style="-fx-border-color: #000000;">
+         <children>
+            <Text fx:id="qNo" layoutX="50.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text = "1">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <JFXRadioButton fx:id="b1" layoutX="39.0" layoutY="200.0" text="A )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b4" layoutX="38.0" layoutY="354.0" text="D )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b3" layoutX="39.0" layoutY="300.0" text="C )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="b2" layoutX="39.0" layoutY="252.0" text="B )">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXButton fx:id="bbnxt" layoutX="176.0" layoutY="485.0" onMouseClicked="#addQuestion" prefHeight="34.0" prefWidth="157.0" text="Add">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+               <stylesheets>
+                  <URL value="@../CSS/Main.css" />
+                  <URL value="@../CSS/button.css" />
+               </stylesheets>
+            </JFXButton>
+            <JFXButton fx:id="sumbmit" layoutX="431.0" layoutY="485.0" onMouseClicked="#Completed" prefHeight="34.0" prefWidth="157.0" text="Completed">
+               <font>
+                  <Font name="Century Gothic Bold" size="15.0" />
+               </font>
+               <stylesheets>
+                  <URL value="@../CSS/Main.css" />
+                  <URL value="@../CSS/button.css" />
+               </stylesheets>
+            </JFXButton>
+            <TextArea fx:id="que" layoutX="99.0" layoutY="40.0" prefHeight="70.0" prefWidth="628.0" />
+            <TextField fx:id="opt1" layoutX="125.0" layoutY="200.0" prefHeight="31.0" prefWidth="628.0" />
+            <TextField fx:id="opt2" layoutX="122.0" layoutY="249.0" prefHeight="31.0" prefWidth="634.0" />
+            <TextField fx:id="opt3" layoutX="125.0" layoutY="297.0" prefHeight="31.0" prefWidth="634.0" />
+            <TextField fx:id="opt4" layoutX="122.0" layoutY="351.0" prefHeight="31.0" prefWidth="634.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ap" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #2e001f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.StartScreenController">
+   <children>
+      <JFXButton fx:id="teacher_login" buttonType="RAISED" layoutX="264.0" layoutY="208.0" onMouseClicked="#LoginTeacher" prefHeight="63.0" prefWidth="291.0" styleClass="loginbtn" text="Enter as a Teacher" textFill="WHITE">
+         <stylesheets>
+            <URL value="@newCascadeStyleSheet.css" />
+            <URL value="@../CSS/newCascadeStyleSheet.css" />
+         </stylesheets>
+      </JFXButton>
+      <JFXButton fx:id="login_student" buttonType="RAISED" layoutX="260.0" layoutY="300.0" onMouseClicked="#LoginStudent" prefHeight="63.0" prefWidth="299.0" styleClass="loginbtn" text="Enter as a Student" textFill="WHITE">
+         <stylesheets>
+            <URL value="@newCascadeStyleSheet.css" />
+            <URL value="@../CSS/newCascadeStyleSheet.css" />
+         </stylesheets>
+      </JFXButton>
+   </children>
+</AnchorPane>

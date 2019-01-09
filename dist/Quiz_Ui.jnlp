@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Quiz_Ui.jnlp">
+  <information>
+    <title>Quiz_Ui</title>
+    <vendor>Saurabh</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Quiz_Ui.jar" size="12448412" download="eager" />
+    <jar href="lib\fontawesomefx-8.0.0.jar" size="65296" download="eager" />
+    <jar href="lib\hamcrest-core-1.1.jar" size="76643" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2211776" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="23931" download="eager" />
+    <jar href="lib\junit-4.10.jar" size="253160" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.38.jar" size="983911" download="eager" />
+    <jar href="lib\tilesfx-1.6.4.jar" size="1530497" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Quiz_Ui" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="application.Main"  name="Quiz_Ui" />
+  <update check="always"/>
+</jnlp>

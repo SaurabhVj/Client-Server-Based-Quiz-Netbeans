@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" style="-fx-border-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="que" layoutX="50.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q.1 |">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <JFXRadioButton fx:id="b1" layoutX="39.0" layoutY="186.0" text="A )">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="b4" layoutX="38.0" layoutY="354.0" text="D )">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="b3" layoutX="39.0" layoutY="300.0" text="C )">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="b2" layoutX="39.0" layoutY="252.0" text="B )">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXButton fx:id="bbnxt" layoutX="176.0" layoutY="485.0" prefHeight="34.0" prefWidth="157.0" text="Save &amp; Continue">
+         <font>
+            <Font name="Century Gothic Bold" size="15.0" />
+         </font>
+         <stylesheets>
+            <URL value="@../CSS/Main.css" />
+            <URL value="@../CSS/button.css" />
+         </stylesheets>
+      </JFXButton>
+      <JFXButton fx:id="sumbmit" layoutX="431.0" layoutY="485.0" prefHeight="34.0" prefWidth="157.0" text="Submit">
+         <font>
+            <Font name="Century Gothic Bold" size="15.0" />
+         </font>
+         <stylesheets>
+            <URL value="@../CSS/Main.css" />
+            <URL value="@../CSS/button.css" />
+         </stylesheets>
+      </JFXButton>
+      <Label fx:id="opt1" layoutX="112.0" layoutY="33.0" prefHeight="98.0" prefWidth="655.0" text="label" />
+      <Label fx:id="opt2" layoutX="117.0" layoutY="180.0" prefHeight="49.0" prefWidth="628.0" text="label" />
+      <Label fx:id="opt3" layoutX="117.0" layoutY="240.0" prefHeight="49.0" prefWidth="628.0" text="label" />
+      <Label fx:id="opt4" layoutX="117.0" layoutY="288.0" prefHeight="49.0" prefWidth="628.0" text="label" />
+      <Label layoutX="117.0" layoutY="342.0" prefHeight="49.0" prefWidth="628.0" text="label" />
+   </children>
+</Pane>
