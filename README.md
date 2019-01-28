@@ -12,3 +12,9 @@ different sections throughout the exam.
 7. The student is shown with the total points after the completion of the exam, if the
 teacher has added the solution by the time student submitted his solution otherwise
 show the status as pending for evaluation.
+
+## Developers
+
+* ### [Kunal Sevkani](https://github.com/kunalmnnit) 
+* ### [Saurabh Vijay](https://github.com/SaurabhVj)
+* ### [Ankit Jain](https://github.com/jankit311)
